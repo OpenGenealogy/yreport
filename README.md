@@ -1,7 +1,7 @@
 yreport
 =======
 
-#Report Y-DNA haplogroup and subclade
+##Report Y-DNA haplogroup and subclade
 
 This project will contain programs to report on y-dna from multiple
 providers, using multiple different y-trees.  It is currently 
@@ -23,7 +23,7 @@ add some public domain sample files later).
 The initial simple test is to match the deletes and inserts
 between these, to see which markers are present in the 23andme data.
 
-The results a printed, in subclade order, showing on each line
+The results are printed, in subclade order, showing on each line
 the subclade, Y-position, value, and SNP aliases.
 
 Example:
@@ -35,8 +35,8 @@ Example:
     R1b1a2a1a	18907236  	C	S129/P310/PF6546  
     
 This is a very basic check missing many features, it's just to
-see if everything can be read in OK and there's some basic
-sense in the results.
+see if everything can be read in OK and there's some meaning
+in the results.
 
 ##Roadmap
 
